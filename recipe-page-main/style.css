@@ -1,0 +1,99 @@
+*
+{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  background-color: var(--Stone-very-light);
+
+}
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  background-color: transparent;
+}
+
+.title{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  background-color: transparent;
+  font-size: 42px;
+  color: var(--Stone-darkest);
+}
+
+.common-text
+{
+    color: var(--Stone-gray);
+    display: inline;
+    background-color: transparent;
+}
+
+.prep
+{
+    background-color: var(--Rose-light);
+    padding: 0 30px;
+}
+.p-prep
+{
+    background-color: transparent;
+    color: var(--Rose-darkest);
+        margin-top: 10px;
+
+}
+
+.ul-prep
+{
+        background-color: transparent;
+}
+
+
+
+
+
+:root
+{
+
+--White: hsl(0, 0%, 100%);
+
+--Stone-very-light: hsl(30, 54%, 90%);
+--Stone-light: hsl(30, 18%, 87%);
+--Stone-gray : hsl(30, 10%, 34%);
+--Stone-darkest : hsl(24, 5%, 18%);
+
+--Brown: hsl(14, 45%, 36%);
+
+--Rose-darkest: hsl(332, 51%, 32%);
+--Rose-light: hsl(330, 100%, 98%);
+
+}
+
+.blog1
+{
+    background-color: var(--White);
+    width: 700px;
+
+    border-radius: 25px;
+    margin: 100px auto;
+    padding: 40px 40px;
+}
+
+
+
+.main-image
+{
+    width: 700px;
+    border-radius: 10px;
+
+    /*
+    display: block;
+    margin: auto;
+        do wycentrowania zdjecia 
+    */
+}
+
