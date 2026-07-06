@@ -41,6 +41,12 @@
     background-color: transparent;
 
     font-size: 17px;
+    
+}
+.brown-text
+{
+    color: var(--Brown);
+    font-weight: bolder;
 }
 
 
@@ -119,12 +125,25 @@
     font-weight: bolder;
 }
 
-
-
-.crazy-table p
+.Nutrition-section 
 {
-    display: table;
+    background-color: transparent;
 }
+.Nutrition-section p
+{
+    background-color: transparent;
+}
+.Nutrition-section table
+{
+    width: 100%;
+    padding-left: 20px;
+    border-collapse: collapse;
+}
+.Nutrition-section tr
+{
+      border-bottom: 1px solid #ddd;
+}
+
 
 :root
 {
