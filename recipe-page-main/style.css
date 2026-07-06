@@ -8,7 +8,6 @@
   background-color: var(--Stone-very-light);
 
 }
-
 .young-serif-regular {
   font-family: "Young Serif", serif;
   font-weight: 400;
@@ -17,7 +16,7 @@
   background-color: transparent;
 }
 
-.title{
+.main-title{
   font-family: "Young Serif", serif;
   font-weight: 400;
   font-style: normal;
@@ -26,39 +25,109 @@
   font-size: 42px;
   color: var(--Stone-darkest);
 }
+.subtitle
+{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
 
+  background-color: transparent;
+  font-size: 28px;
+  color: var(--Brown);
+}
 .common-text
 {
     color: var(--Stone-gray);
-    display: inline;
     background-color: transparent;
+
+    font-size: 17px;
 }
 
-.prep
+
+
+.Preparation-section
 {
     background-color: var(--Rose-light);
-    padding: 0 30px;
+    border-radius: 10px;
+    padding: 10px 30px;
+
 }
-.p-prep
+.Preparation-section p
+{
+    font-size: 21px;
+
+    font-weight: bold;
+    color: var(--Rose-darkest);
+    background-color: transparent;
+}
+.Preparation-section ul,li    
 {
     background-color: transparent;
-    color: var(--Rose-darkest);
-        margin-top: 10px;
-
+    padding: 5px 25px;
+    color: var(--Stone-gray);
 }
-
-.ul-prep
+.Preparation-section li::marker
 {
-        background-color: transparent;
+    color: var(--Rose-darkest);
+    font-size: 12px;
+}
+.Preparation-section span
+{
+    font-weight: bolder;
+    background-color: transparent;
+    color: var(--Stone-gray);
 }
 
 
 
+.Ingredients-section
+{
+    background-color: transparent;
 
+}
+.Ingredients-section ul,li
+{
+    background-color: transparent;
+}
+.Ingredients-section li::marker
+{
+    color: var(--Brown);
+    font-size: 12px;
+}
+
+
+
+.Instructions-section
+{
+    background-color: transparent;
+
+}
+.Instructions-section ol,li
+{
+    background-color: transparent;
+}
+.Instructions-section li::marker
+{
+    color: var(--Brown);
+    font-size: 12px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.Instructions-section span
+{
+    background-color: transparent;
+    font-weight: bolder;
+}
+
+
+
+.crazy-table p
+{
+    display: table;
+}
 
 :root
 {
-
 --White: hsl(0, 0%, 100%);
 
 --Stone-very-light: hsl(30, 54%, 90%);
@@ -70,7 +139,6 @@
 
 --Rose-darkest: hsl(332, 51%, 32%);
 --Rose-light: hsl(330, 100%, 98%);
-
 }
 
 .blog1
@@ -80,11 +148,10 @@
 
     border-radius: 25px;
     margin: 100px auto;
-    padding: 40px 40px;
+    padding: 42px 42px;
+    display: block;
+
 }
-
-
-
 .main-image
 {
     width: 700px;
