@@ -5,9 +5,13 @@
   font-weight: 400;
   font-style: normal;
 
-  background-color: var(--Stone-very-light);
+  /*!!! background-color: var(--Stone-very-light); >:( !!! */
 
 }
+body {
+  background-color: var(--Stone-very-light);
+}
+
 .young-serif-regular {
   font-family: "Young Serif", serif;
   font-weight: 400;
@@ -143,7 +147,15 @@
 {
       border-bottom: 1px solid #ddd;
 }
-
+.Nutrition-section td
+{
+    padding: 12px 40px;
+    background-color: transparent;
+}
+.Nutrition-section tr:last-child
+{
+      border-bottom: none;
+}
 
 :root
 {
